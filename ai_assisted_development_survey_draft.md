@@ -6,7 +6,7 @@ The results will help us plan practical improvements, knowledge-sharing activiti
 
 This is not an **individual performance assessment**. Please answer honestly based on your own experience. It's perfectly fine not to know something.
 
-Estimated completion time: **7–9 minutes** (to be validated).
+Estimated completion time: **9–12 minutes** (to be validated).
 
 ## A. Role and AI usage
 
@@ -27,8 +27,8 @@ Estimated completion time: **7–9 minutes** (to be validated).
 ### Q02. Which types of AI tools do you use at work? (Select all that apply.)
 **Type:** Multiple choice  
 
-- AI coding assistants / IDE assistance (e.g., GitHub Copilot suggestions or chat)
-- AI coding agents that carry out tasks and edit files (e.g., agent mode in GitHub Copilot, Copilot CLI, Claude Code)
+- AI coding assistants / IDE assistance (e.g., GitHub Copilot, Cursor, JetBrains AI Assistant)
+- AI coding agents that carry out tasks and edit files (e.g., agent mode in GitHub Copilot or Cursor, Copilot CLI, Claude Code, Codex, Gemini CLI)
 - General-purpose AI chat tools (e.g., ChatGPT, Gemini, Claude)
 - I don't use AI tools at work (exclusive)
 
@@ -44,7 +44,7 @@ Estimated completion time: **7–9 minutes** (to be validated).
 ### Q04. Which of the following best describes the most advanced way you currently use AI in your development workflow?
 **Type:** Single choice  
 
-Select the option that best describes your most advanced AI workflow. The options represent increasing workflow complexity, but not necessarily skill level.
+Select the option that best describes your most advanced AI workflow (at work or privately). The options represent increasing workflow complexity, but not necessarily skill level.
 
 - I don't use AI for development tasks.
 - I use AI to ask questions, understand code, or explore possible solutions.
@@ -106,17 +106,25 @@ Select the option that best describes your most advanced AI workflow. The option
 
 **Concepts:**
 - Context & session management: managing context and knowing when to restart conversations
-- Repository instructions: using `AGENTS.md` or `copilot-instructions.md` to guide AI behavior
+- Repository instructions: using files such as `AGENTS.md`, `CLAUDE.md` or `copilot-instructions.md` to guide AI behavior
 - Agent mode: delegating multi-step coding tasks
 - Skills: reusable procedures and instructions for AI agents
 - Subagents: delegating focused tasks to other agents
 - Model selection: choosing a model based on task complexity, cost, and quality
-- MCP servers: understanding what they enable and how to connect them to AI coding assistants.
+- MCP servers: understanding what they enable and how to connect them to AI coding assistants
 - Background agents: autonomous, asynchronous task execution in separate environments (e.g. a separate machine / server)
 
-## D. Upskilling and next steps
+## D. Preferences, upskilling and next steps
 
-### Q9. Would you like to improve your AI-assisted development skills with support from more experienced colleagues?
+### Q09. Would you like to work on projects where AI-assisted (agentic) development is a core part of delivery?
+**Type:** Single choice  
+
+- Yes, I'd actively like to
+- I'm open to it
+- Not at the moment
+- No
+
+### Q10. Would you like to improve your AI-assisted development skills with support from more experienced colleagues?
 **Type:** Single choice  
 
 - Definitely yes
@@ -125,11 +133,11 @@ Select the option that best describes your most advanced AI workflow. The option
 - Probably not
 - Definitely not
 
-### Q10. Which learning topics would be most valuable to you? (Select up to 3.)
+### Q11. Which learning topics would be most valuable to you? (Select up to 3.)
 **Type:** Multiple choice, maximum 3  
 
 - Prompting, providing context, and session management
-- Repository instructions and Copilot configuration
+- Repository instructions and agent configuration
 - Planning and managing multi-step tasks with AI agents
 - Skills, custom agents, subagents and MCP integrations
 - Code verification, testing, and avoiding AI-related errors
@@ -138,7 +146,7 @@ Select the option that best describes your most advanced AI workflow. The option
 - I'm not interested in additional learning resources (exclusive)
 - Other, what?
 
-### Q11. Which form of support would be most useful to you?
+### Q12. Which form of support would be most useful to you?
 **Type:** Single choice  
 
 - Short live demos of real-world workflows
@@ -149,7 +157,12 @@ Select the option that best describes your most advanced AI workflow. The option
 - I don't need additional support - I'm comfortable with my current AI skills
 - I'm not interested in using AI more extensively
 
-### Q12. Is there anything else you'd like to share about using AI at work or improving our AI capabilities as a company?
-**Type:** Open text  
+### Q13. (Optional) Describe the most complex task you've completed with AI assistance (at work or privately): what you delegated, which tools you used, and how you verified the result.
+**Type:** Open text (optional)  
+
+Feel free to skip if nothing comes to mind. Examples we could learn from are especially welcome.
+
+### Q14. Is there anything else you'd like to share about using AI at work or improving our AI capabilities as a company?
+**Type:** Open text (optional)  
 
 Feel free to share challenges, ideas, useful practices, or suggestions not covered by the previous questions.
